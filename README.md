@@ -21,6 +21,7 @@ Join the community: [RoboCrab Discord](https://discord.gg/SSCVHduG9x).
 ## AI-Assisted Rust Rewrites
 
 - [Bun Zig-to-Rust rewrite](https://github.com/oven-sh/bun/pull/30412) - Bun merged "Rewrite Bun in Rust" on May 14, 2026 from the `claude/phase-a-port` branch, adding a Rust workspace across thousands of files; Bun canary builds are released from every `main` commit via `bun upgrade --canary`.
+- [Grit](https://github.com/gitbutlerapp/grit) - GitButler's AI-authored Git reimplementation in Rust, targeting close behavior compatibility with upstream Git by porting and running the Git test suite against `grit-git`.
 - [Ladybird's Rust adoption](https://ladybird.org/posts/adopting-rust/) - Browser project adopting Rust with AI assistance, starting with LibJS because it is relatively isolated and has extensive test coverage.
 - [pacquet](https://github.com/pnpm/pnpm/tree/main/pacquet) - Official pnpm rewrite in Rust, porting the pnpm CLI from TypeScript to Rust while matching pnpm behavior, flags, defaults, error codes, file formats, and directory layout.
 - [pgrust](https://pgrust.com/) - PostgreSQL rewrite in Rust using AI-assisted engineering, with PostgreSQL behavior and compatibility tests as the bar.
@@ -47,6 +48,7 @@ These are not all Rust migrations, but they are useful examples of AI-assisted r
 - [Cloudflare vinext](https://blog.cloudflare.com/vinext/) - AI-written reimplementation of the Next.js API surface on Vite and Cloudflare Workers, with Cloudflare describing the build process, token cost, test suite, and quality gates.
 - [Cursor FastRender browser experiment](https://cursor.com/blog/scaling-agents) - Cursor research run where hundreds of agents worked for close to a week on a Rust browser engine experiment, producing over one million lines across 1,000 files.
 - [Cursor self-driving codebases](https://cursor.com/blog/self-driving-codebases) - Follow-up post on the agent harness, coordination patterns, and review problems Cursor saw after the browser experiment.
+- [Webernetes](https://ngrok.com/blog/i-ported-kubernetes-to-the-browser) - ngrok's LLM-assisted partial port of Kubernetes from Go to TypeScript for browser-based clusters, with manual review and tests comparing behavior against k3s.
 
 ## Adjacent Rust Reimplementations
 
