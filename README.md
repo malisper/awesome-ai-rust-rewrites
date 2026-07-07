@@ -54,6 +54,7 @@ These are not all Rust migrations, but they are useful examples of AI-assisted r
 
 These are not necessarily AI-assisted, but they show large ecosystems replacing existing developer tooling with Rust implementations.
 
+- [Astro 7](https://astro.build/blog/astro-7/) - Astro rewrote its `.astro` compiler in Rust, made its Rust-powered Markdown and MDX pipeline the default, and reports 15-61% faster builds across benchmark sites.
 - [Biome](https://biomejs.dev/) - Rust web toolchain for formatting, linting, and code analysis, positioned as a faster alternative to common JavaScript tooling.
 - [Deno 2.0](https://deno.com/blog/v2.0) - Rust-based JavaScript and TypeScript runtime with Node.js and npm compatibility, plus built-in formatter, linter, test runner, and task runner.
 - [Lightning CSS](https://github.com/parcel-bundler/lightningcss) - Rust CSS parser, transformer, bundler, and minifier used by Parcel and other tools.
