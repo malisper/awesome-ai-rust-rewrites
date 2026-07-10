@@ -60,7 +60,8 @@ These are not necessarily AI-assisted, but they show large ecosystems replacing 
 - [Lightning CSS](https://github.com/parcel-bundler/lightningcss) - Rust CSS parser, transformer, bundler, and minifier used by Parcel and other tools.
 - [Next.js Compiler](https://nextjs.org/docs/architecture/nextjs-compiler) - Rust/SWC-based compiler that replaces Babel for individual files and Terser for minification in Next.js.
 - [Oxc](https://oxc.rs/) - Rust JavaScript tooling stack covering parser, linter, formatter, transformer, resolver, and minifier.
-- [Rolldown](https://rolldown.rs/) - Rust Rollup-compatible bundler used by Vite to replace its previous esbuild/Rollup split.
+- [PHPM](https://github.com/lemesdaniel/phpm) - PHP dependency manager written in Rust with a shared global store, layering on top of Composer's resolver but replacing vendor/ materialization with hard links to cut disk usage and install time; validated against Laravel 13, Symfony 8.1, and PHPUnit.
+- - [Rolldown](https://rolldown.rs/) - Rust Rollup-compatible bundler used by Vite to replace its previous esbuild/Rollup split.
 - [Rspack](https://rspack.rs/blog/announcing-1-0) - Rust Webpack-compatible bundler designed for progressive migration from Webpack.
 - [Ruff](https://github.com/astral-sh/ruff) - Rust Python linter and formatter that replaces or consolidates tools such as Flake8, isort, and Black.
 - [Tailwind CSS v4](https://tailwindcss.com/blog/tailwindcss-v4) - New high-performance Tailwind engine using Rust-powered pieces and Lightning CSS, with substantially faster full and incremental builds.
