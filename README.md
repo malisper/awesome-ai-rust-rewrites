@@ -63,8 +63,10 @@ These are not necessarily AI-assisted, but they show large ecosystems replacing 
 - [Rolldown](https://rolldown.rs/) - Rust Rollup-compatible bundler used by Vite to replace its previous esbuild/Rollup split.
 - [Rspack](https://rspack.rs/blog/announcing-1-0) - Rust Webpack-compatible bundler designed for progressive migration from Webpack.
 - [Ruff](https://github.com/astral-sh/ruff) - Rust Python linter and formatter that replaces or consolidates tools such as Flake8, isort, and Black.
+- [Rustwright](https://github.com/Skyvern-AI/rustwright) - Alpha Rust reimplementation of Playwright's browser-control engine under Playwright-shaped Python and Node APIs; reports 515 shared parity cases and 1,046 Docker-gate tests, plus local diagnostic speed and client-memory gains, while explicitly saying full behavioral parity is not yet proven.
 - [Tailwind CSS v4](https://tailwindcss.com/blog/tailwindcss-v4) - New high-performance Tailwind engine using Rust-powered pieces and Lightning CSS, with substantially faster full and incremental builds.
 - [Turbopack](https://nextjs.org/blog/next-13) - Vercel's Rust-based successor to Webpack, introduced through Next.js.
+- [Turso](https://github.com/tursodatabase/turso) - Rust rewrite of SQLite evolving into a pluggable database core; its new [Postgres frontend](https://turso.tech/blog/a-new-modern-version-of-postgres-in-rust) compiles Postgres syntax and types to Turso bytecode, targets common-application compatibility rather than 100% PostgreSQL parity, and documents simulation, oracle, fuzz, and formal-method testing.
 - [uv](https://github.com/astral-sh/uv) - Rust Python package and project manager designed as a fast replacement for tools such as `pip`, `pip-tools`, `pipx`, `poetry`, and `virtualenv`.
 
 ## Tools
