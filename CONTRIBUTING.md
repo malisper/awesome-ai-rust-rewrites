@@ -6,6 +6,8 @@ Thanks for helping make this list useful. Open a pull request with the entry you
 
 Good additions should be about rewriting, migrating, porting, or reimplementing an existing codebase in Rust.
 
+Scale and ambition matter. The list focuses on substantial rewrites of established codebases, runtimes, compilers, databases, browsers, package managers, and similarly important infrastructure. An entry should replace a meaningful part of an incumbent system or demonstrate unusual migration scope. A useful but small wrapper, plugin, accelerator, or greenfield alternative is not enough by itself.
+
 Strong entries usually have at least one of:
 
 - test-suite results
@@ -22,6 +24,8 @@ Please avoid:
 
 - generic AI coding tools
 - generic Rust projects
+- small wrappers, plugins, or accelerators that retain the incumbent for core behavior
+- early MVPs whose scope is narrow relative to the projects already on the list
 - low-detail marketing pages
 - "we might rewrite this someday" posts
 - projects with no evidence of behavior validation

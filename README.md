@@ -109,7 +109,7 @@ These are not necessarily AI-assisted, but they show large ecosystems replacing 
 
 ## Footnotes
 
-This list is intentionally narrow. It is not a general Rust list, a general AI coding list, or a list of greenfield Rust projects.
+This list is intentionally narrow. It is not a general Rust list, a general AI coding list, or a list of greenfield Rust projects. Scale and ambition matter: entries should replace a meaningful surface of an established system or demonstrate unusual migration scope. Small wrappers, plugins, and accelerators are out of scope even when they are useful and well built.
 
 Good entries should show at least one serious validation signal: test results, compatibility target, benchmark data, migration log, source and target code links, or discussion of unsafe code and semantic gaps.
 
