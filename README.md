@@ -71,6 +71,7 @@ These are not necessarily AI-assisted, but they show large ecosystems replacing 
 
 ## Tools
 
+- [behave](https://github.com/emirmrkaljevic/behave) - Records how an existing CLI behaves (flags, stdin, files, exit codes, stdout and stderr) as readable YAML cases, then replays them against the Rust rewrite and diffs the results; run with GNU coreutils as the reference against uutils coreutils, it led to 18 upstream bug reports and 25 fix PRs (11 merged so far).
 - [C2Rust](https://github.com/immunant/c2rust) - C-to-Rust translator and refactoring toolkit for migrating C code to Rust.
 - [Corrode](https://github.com/jameysharp/corrode) - Older C-to-Rust translator, useful historical context for deterministic translation.
 - [ShiftCodex](https://shiftcodex.com/) - AI code migration platform built around translate, test, fix, and re-run loops.
